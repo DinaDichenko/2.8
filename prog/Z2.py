@@ -3,8 +3,6 @@
 
 import math
 
-r = float(input("Введите радиус круга: "))
-h = float(input("Введите высоту цилиндра: "))
 
 def cylinder():
     i = input("Введите 1, если хоте получить только площадь боковой поверхности цилиндра\n"
@@ -25,4 +23,6 @@ def circle():
     return (math.pi*pow(r, 2))
 
 if __name__ == '__main__':
+    r = float(input("Введите радиус круга: "))
+    h = float(input("Введите высоту цилиндра: "))
     cylinder()
